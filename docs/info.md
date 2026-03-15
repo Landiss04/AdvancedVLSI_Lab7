@@ -9,12 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This design implements a 4-bit combinational multiplier with an 8-bit product output. 
+The circuit receives two 4-bit operands from an 8-bit input bus, performs multiplication, and outputs the resulting 8-bit product.
 
 ## How to test
 
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Apply an 8-bit value to ui_in where the upper 4 bits are operand A and the lower 4 bits are operand B.
+Set ena = 1 so the inputs are loaded into the design.
+Keep rst_n = 1 during normal operation. If rst_n = 0, both operands are cleared to zero.
