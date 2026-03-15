@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: © 2024 Tiny Tapeout
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: Apache-2.0.
 
 import cocotb
 import random
