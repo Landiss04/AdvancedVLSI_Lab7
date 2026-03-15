@@ -16,4 +16,4 @@ The circuit receives two 4-bit operands from an 8-bit input bus, performs multip
 
 Apply an 8-bit value to ui_in where the upper 4 bits are operand A and the lower 4 bits are operand B.
 Set ena = 1 so the inputs are loaded into the design.
-Keep rst_n = 1 during normal operation. If rst_n = 0, both operands are cleared to zero.
+Keep rst_n = 1 during normal operation. If rst_n = 0, both operands are cleared to zero
